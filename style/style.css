@@ -7,8 +7,6 @@
 }
 
 body {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
     background-color: rgb(231, 233, 233);
 }
 
@@ -52,6 +50,7 @@ header .lmenu li a {
 
 .lmenu{
     display: flex;
+    
     position: relative;
     top: 0;
 }
@@ -117,7 +116,11 @@ main {
 }
 
 /*Regras Midia*/
+/*
 @media screen and (max-width: 902px){
+    .body {
+        background-color: aquamarine;
+    }
     .nav-lista {
         display: block;
         position: absolute;
@@ -137,6 +140,7 @@ main {
     .menui{
         z-index: 1;
         display: block;
+        margin-left: 5%;
     }
 
     .lmenu{
@@ -158,3 +162,4 @@ main {
         margin-top: 15%;
     }
 }
+*/
