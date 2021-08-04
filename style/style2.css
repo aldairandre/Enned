@@ -22,8 +22,6 @@ img{
     height: 100%;
 }
 
-/*RESET END*/
-
 /*HEADER STYLE*/
 header{
     display: flex;
@@ -71,42 +69,6 @@ nav{
     padding: 10px;
 }
 
-/*HEADER END*/
-
-/*Banne Style*/
-    
-    div{
-        display: block;
-        position: relative;
-    }
-
-    picture{
-        display: block;
-    }
-
-    div picture > img {
-        max-height: 300px;
-        height: 100%;
-    }
-
-    .text_banner{
-        position: absolute;
-        width: 70%;
-        top:50%;
-        left: 10%;
-        font-size: 1.5rem;
-        color: rgb(255, 255, 255);
-        font-family: sans-serif;
-        font-weight: 800;
-        top: 30%;
-        left: 5%;
-        font-size: 2.5rem;
-        color: rgb(68, 116, 104);
-        font-family: 'Karantina', cursive;
-        font-weight: 800;
-        letter-spacing: 5px;
-    }
-    
     /*MAIN STYLE */
 
 main {
