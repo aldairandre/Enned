@@ -1,5 +1,10 @@
 /*RESET BASIC*/
 
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Karantina:wght@300&display=swap');
+
+>>>>>>> 51ec75573621d4e5e37d18382a49d72171a50a93
 *{
     padding: 0;
     margin: 0;
@@ -78,6 +83,13 @@ nav{
         position: relative;
     }
 
+<<<<<<< HEAD
+=======
+    picture{
+        display: block;
+    }
+
+>>>>>>> 51ec75573621d4e5e37d18382a49d72171a50a93
     div picture > img {
         max-height: 300px;
         height: 100%;
@@ -85,6 +97,7 @@ nav{
 
     .text_banner{
         position: absolute;
+<<<<<<< HEAD
         width: 70%;
         top:50%;
         left: 10%;
@@ -92,6 +105,15 @@ nav{
         color: rgb(255, 255, 255);
         font-family: sans-serif;
         font-weight: 800;
+=======
+        top: 30%;
+        left: 5%;
+        font-size: 2.5rem;
+        color: rgb(68, 116, 104);
+        font-family: 'Karantina', cursive;
+        font-weight: 800;
+        letter-spacing: 5px;
+>>>>>>> 51ec75573621d4e5e37d18382a49d72171a50a93
     }
     
 
@@ -111,4 +133,20 @@ nav{
         display: block;
     }
     */
+<<<<<<< HEAD
 
+=======
+    /*MAIN STYLE */
+
+main {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 900px;
+}
+
+.c_produto > img {
+    max-width: 200px;
+    max-height: 200px;
+}
+>>>>>>> 51ec75573621d4e5e37d18382a49d72171a50a93
